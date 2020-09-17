@@ -5,7 +5,15 @@
 
 def factorial(n):
     # Write code here
-    pass
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+    print(n * factorial(n - 1))
+n = int(input("input a number to compute the factorial: "))
+print(factorial(n))
+
+print(factorial(5))
 
 # print(factorial(5))
 # => 120

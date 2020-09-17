@@ -6,9 +6,12 @@
 # H stands for Heads and T stands for tails
 # Represent the two outcomes of each flip as "H" or "T"
 
+n = input(int("how many coin flips?"))
 def coin_flips(n):
     # Write code here
+    let H = Heads
+    let T = tails
     pass
 
-# print(coinFlips(2)) 
+# print(coin_flips(2)) 
 # => ["HH", "HT", "TH", "TT"]
